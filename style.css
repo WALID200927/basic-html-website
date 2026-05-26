@@ -1,0 +1,44 @@
+/* تنسيق البطاقة (المربع والـ 3D) */
+.card {
+    background-color: white; /* لون خلفية البطاقة */
+    border-radius: 15px; /* منحنيات الزوايا */
+    padding: 20px; /* المسافة الداخلية */
+    width: 320px; /* عرض البطاقة */
+    margin: 100px auto; /* تمركز البطاقة في وسط الصفحة ومسافة من الأعلى */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* هذا هو سر تأثير الـ 3D والضل! */
+    text-align: center; /* تمركز النص داخل البطاقة */
+}
+
+/* تنسيق الصورة داخل البطاقة */
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0; /* منحنيات للأعلى برك */
+}
+
+/* تنسيق النص (H1 و P) */
+.card h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الزر */
+.card button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #2980b9;
+}
